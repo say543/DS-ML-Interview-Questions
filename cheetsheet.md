@@ -14,6 +14,8 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 2. How to find the best parameter for linear regression? / How to optimize the model?
 3. Please write down the close form solution for linear regression?
 4. What is Stochastic Gradient Descent or Mini-batch Gradient Descent? What is the advantage? and disadvantages?
+ans: refer to 'linear regression  - regression'  in machine_learning.txt
+
 5. What is mean square error? What is Cross Entropy? What is the difference? Also please write down the formular of these two cost function.
 6. What is Softmax? What is relationship between Softmax and Logistic Regression?
 7. Explain and derive the SGD for Logistic Regression and Softmax?
