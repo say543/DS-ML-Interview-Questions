@@ -17,11 +17,17 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 ans: refer to 'linear regression  - regression'  in machine_learning.txt
 
 5. What is mean square error? What is Cross Entropy? What is the difference? Also please write down the formular of these two cost function.
+ans : mean refer to '為什麼要用mean'. 
+
 6. What is Softmax? What is relationship between Softmax and Logistic Regression?
 7. Explain and derive the SGD for Logistic Regression and Softmax?
+
 8. Does global optimal can be reached by SGD, why?
 ans: might ve possible if convex/ concave but not guaranteed
+
 9. What is the Sigmoid function? What is the characteristic of Sigmoid? What is the advantages and disadvantages of Sigmoid function?
+
+ans: compared to Relu 'gradient vanishing problem 跟sigmoid 的 討論似乎沒有相關' basic_knowledge.txt
 
 ### Regularization, Overfitting and Model/Feature Selection/Evaluation.
 1. What are L1 and L2? And their difference? 
