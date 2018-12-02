@@ -65,8 +65,11 @@ ans : '處理unbalance data'  in basic_konwledge.txt
 
 ### Boosting and Ensemble
 1. What is AdaBoost and the relation between Adaboost and exponential loss function?
+ans : lec 27  Ensemble. noy yet study its loss function
 2. What is Gradient Boosting?
 3. What is the idea of Bagging and Stacking?
+ans : lec 27  Ensemble for bagging
+ans : lec 27  Ensemble for stacking. not yet study
 4. Do you know XGBoost? And what is the idea of XGBoost?
 
 ### Naive Bayes
@@ -79,6 +82,7 @@ ans : '處理unbalance data'  in basic_konwledge.txt
 3. What's the pros and cons of K-means?
 4. What's the complexity of K-means?
 5. What's PCA and SVD? Given the SVD funtion, please implement PCA.
+ans : SVD (single-value decompostion) relate to PCA. 'pca, auto encoder  的差別' in machine_learning.txt
 6. Do you know T-sne, simply explain it to me?
 
 ### Graph Models
