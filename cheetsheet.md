@@ -11,8 +11,11 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 ## Machine Learning Concept
 ### Linear Regression and Logistic Regression
 1. What is linear regression? What is logistic regression? What is the difference?
+ans: regression problem and classfication problem
 2. How to find the best parameter for linear regression? / How to optimize the model?
+ans: close form or Stochastic Gradient Descent . maxiaml likelihodd
 3. Please write down the close form solution for linear regression?
+ans: refer to linear gressionin machine_learning.txt.  not yet fully written
 4. What is Stochastic Gradient Descent or Mini-batch Gradient Descent? What is the advantage? and disadvantages?
 ans: refer to 'linear regression  - regression'  in machine_learning.txt
 
@@ -31,19 +34,27 @@ ans: compared to Relu 'gradient vanishing problem 跟sigmoid 的 討論似乎沒
 
 ### Regularization, Overfitting and Model/Feature Selection/Evaluation.
 1. What are L1 and L2? And their difference? 
+ans:  L1 : feature selection  L2: model to prevent overfitting
 2. From the view of Bayesian, what's the difference between L1 and L2?
 3. What is overfitting? 
+ans: refer to 'biase / variance analysis'
 4. How can you know your model is overfitted or not?
+ans: biase / variance analysis 
 5. What is the Bias-Variance Trade-off?
+ans: refer to 'biase / variance analysis'
 6. How to prevent overfitting?
+ans : using  L2. using dropout in CNN.
 7. What is cross validation?
+ans: refer to knn section (knn.py in another repo)
 8. Let is consider you are training a classifier to classify the cat pictures taken by cell phone. You have 10k cat pictures that taken by cell phone users. How would you split the pictures into training/validation/test set? Now you have got 100k cat pictures from Internet, what dataset would you like to choose to put these 100k cat pictures in?
 9. For training/validation/test set, which two sets are most important that you have to keep the distribution of data samples the same?
+ans: trainnig and validation becasue if going with cross validation
 10. What is data augmentation? Do you know any technique to augment data?
 11. What is F1 score? What are recall and precision?
+ans :  'precision / recall 說明' in machine_learning.txt
 12. What is AUC?
 13. How would you handle data imbalance problem?
-
+ans : '處理unbalance data'  in basic_konwledge.txt
 ### Decision Tree
 1. What is Decision Tree?
 2. What is Information Gain?
@@ -117,6 +128,7 @@ ans: compared to Relu 'gradient vanishing problem 跟sigmoid 的 討論似乎沒
 
 ### NLP and DL
 1. What is tf-IDF?
+ans : tf-IDF in machine_learning.txt
 2. What is word embedding and its idea? What is the difference between sampled softmax and negative sampling? Do you know the relationship between negative sampling and Pointwise Mutual Information(Bouns)
 3. What are unigram and bigram?
 4. What is the attention machanism?
